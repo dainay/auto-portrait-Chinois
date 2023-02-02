@@ -1,0 +1,58 @@
+[
+    {
+       "analogie":"une danse",
+       "valeur":"le ballet",
+       "class":"dance",
+       "explaination":"Comme une danse, le ballet allie beauté, grâce, mais en même temps des règles assez strictes, des lignes claires et des mouvements raffinés. Les danseurs de ballet doivent travailler dur pour que le résultat final soit léger et gracieux. Il me semble que ma vision intérieure du monde peut être comparée à cette danse : il est important pour moi que mon travail, les choses autour, la maison soient non seulement fonctionnelles, pratiques, mais aussi belles. Et pour cela, je suis prête à dépenser des forces supplémentaires et beaucoup de temps.",
+       "photo":"./img/1d.webp",
+       "licence":"Utilisation gratuite sous la Licence Freepik<br> Image de <a href='https://www.freepik.com/free-photo/side-view-ballerina-tutu-dress-doing-split-with-copy-space_6354065.htm'>Freepik</a>"
+    },
+    {
+       "analogie":"une couleur",
+       "valeur":"le marron",
+       "class":"color",
+       "explaination":"Chaud et sombre à la fois, le marron est définitivement ma couleur préférée. Je pense que la même chose peut être dite de mon personnage en général - chaleureux, sympathique, mais aussi souvent sombre, introverti, caché à l'intérieur. </br></br> En plus, c'est la couleur du chocolat ! Déjà cela suffit pour choisir le marron.",
+       "photo":"./img/2.webp",
+       "licence":"Utilisation gratuite sous la Licence Unsplash<br> Image de <a href='https://unsplash.com/fr/photos/xzXQA28CBHw '>Pawel Czerwinski</a>"
+    },
+    {
+       "analogie":"une série TV",
+       "valeur":"«How I met your mother»",
+       "class":"serie",
+       "explaination":"Probablement chacun de nous avait de tels films, livres, performances avec lesquels vous vous sentez <i>«chez vous»</i>. Pour moi, la série «How I Met Your Mother» est devenue une telle œuvre. Derrière les nombreuses blagues et situations ridicules qui arrivent aux personnages, il y a toujours une couche émotionnelle inférieure qui me répond à 100%. Au fil des années passées à regarder la série, ses héros sont vraiment devenus des amis dont il est incroyablement difficile de se séparer à la fin.</br></br> Un jour, mon professeur de littérature a dit que l'une des tâches principales de l'art est de faire sentir aux gens qu'ils ne sont pas seuls dans le monde, dans leurs problèmes et même dans leurs joies. Cette émission m'a aidé à traverser de nombreux moments difficiles, et chaque jour, je peux lancer n'importe quel épisode et ressentir un réel soutien, bien que de la part de personnages irréels.",
+       "photo":"./img/3d.webp",
+       "licence":"Utilisation gratuite sous la Licence Pexels<br> Image de <a href='https://www.pexels.com/photo/bright-yellow-umbrella-in-close-up-photography-11206903/'>Clayton</a>"
+    },
+    {
+       "analogie":"un mois de l'année",
+       "valeur":"décembre",
+       "class":"mois",
+       "explaination":"J'avais deux raisons principales pour choisir décembre comme mois qui me ressemblerait. D'abord, décembre est froide. Et c'est merveilleux ! À Moscou, il neige généralement magnifiquement en décembre, comme dans un film romantique. C'est mon temps préféré car le temps d'hiver le plus chaud et le plus calme est les jours les plus enneigés.</br></br>  Et la deuxième raison est, bien sûr, Noël. Plus précisément, pas Noël lui-même, mais cette atmosphère des jours qui l'ont précédé, lorsque les décorations sont accrochées partout dans les rues, que les chansons de Michael Bublé sont jouées dans les centres commerciaux et que des pulls chauds avec des rennes sont dans toutes les vitrines des magasins. S'il était possible que chaque jour soit comme le 20 décembre, je serais d'accord sans hésiter.</br></br> Je pense que cela correspond à mon caractère - dans la plupart des cas, je reste froid et je n'aime pas montrer mes émotions, je suis calme, comme la neige de décembre. Pendant ce temps, à l'intérieur, je peux fredonner un air de Noël...",
+       "photo":"./img/4.webp",
+       "licence":"Utilisation gratuite sous la Licence Freepik<br> Image de <a href='https://www.freepik.com/free-photo/selective-focus-shot-decorative-snowflake-blurred-bokeh-background_11600258.htm#&position=4&from_view=user#position=4'>wirestock</a>"
+    },
+    {
+       "analogie":"une musique",
+       "valeur":"une des compositions d'Ilya Beshevli",
+       "class":"music",
+       "explaination":"Si je dois choisir une musique, je pense que ce seront les œuvres d'Ilya Beshevli. Ses mélodies, mélancoliques et plutôt tristes, me semblent très émouvantes, comme si la musique s'apprêtait à vous parler dans un vrai langage. Calmes et tranquilles, ses œuvres résonnent souvent en moi. Il me semble que c'est une musique idéale pour les introvertis, surtout pour rester seul avec soi-même. <iframe class='song' style='border-radius:12px' src='https://open.spotify.com/embed/track/5d6QQM7Vzu3yvkdBOhoexI?utm_source=generator&theme=0' width='65%' height='155' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>",
+       "photo":"./img/5.webp ",
+       "licence":"Utilisation gratuite sous la Licence Unsplash<br> Image de <a href='https://unsplash.com/photos/1oKxSKSOowE'>Mohammad Metri</a>"
+    },
+    {
+       "analogie":"une performance",
+       "valeur":"une comédie musicale",
+       "class":"hobbie",
+       "explaination":"Les comédies musicales sont ma passion depuis l'enfance. C'est le meilleur outil pour éteindre votre tête pendant 3 heures et allumer vos émotions. De plus, chaque représentation est unique et ne se répétera jamais. Par le travail et par simple choix, il m'est arrivé de voir plus de 40 fois le même spectacle, et à chaque fois c'était une histoire un peu différente. Étonnamment, je n'avais pas un tel lien avec le théâtre dramatique.</br></br>  Si je pouvais choisir la manière dont les gens expriment leurs émotions, je choisirais un air de comédie musicale. C'est beau, profond, peut-être un peu long et peu pratique, mais sans doute le monde serait-il un peu plus beau comme ça. </br></br>  Si vous n'aimez pas les comédies musicales, c'est que vous n'avez pas encore trouvé la vôtre ;)",
+       "photo":"./img/6.webp",
+       "licence":"Utilisation gratuite sous la Licence Unsplash<br> Image de <a href='https://unsplash.com/photos/iVW7mZPwd4g'>Florian Wehde</a>"
+    },
+    {
+       "analogie":"un livre",
+       "valeur":"«Petit Prince»",
+       "class":"livre",
+       "explaination":" C'est avec ce livre que j'ai commencé ma connaissance de la langue française à l'université. Et dès les premières lignes, cela semblait tellement inhabituel... Il semble que ce soit la simplicité ultime, qui contient un nombre infini de significations. </br></br> J'accepte profondément quand l'auteur, sous couvert d'une histoire pour enfants, cache un conte de fées pour adultes. Et je veux croire que je peux dire la même chose de moi, la personne qui achète des t-shirts avec Harry Potter pour les montrer à mes anciens camarades de mon master littéraire lors d'une réunion en ligne sur le travail de Dostoïevski.</br></br> Je pense qu'il est important d'avoir les deux parties en vous. La second aide à vivre sagement, et la premier aide à survivre.",
+       "photo":"./img/7.webp",
+       "licence":"Utilisation gratuite sous la Licence Pexels<br> Image de <a href='https://www.pexels.com/photo/boy-with-yellow-scarf-looking-at-a-red-flower-7181800/'>Cottonbro studio</a>"
+    }
+   ]

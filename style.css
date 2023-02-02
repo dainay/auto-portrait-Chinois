@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+body {
+
+    background-color: rgb(17, 17, 17);
+    height: 100vh;
+    min-width: 768px;
+    cursor: url(./img/mouse.png), auto;
+}
+
+a {
+    cursor: url(./img/mouse10.png), pointer;
+}
+
+header {
+    max-width: 1280px;
+    min-width: 768px;
+    margin: auto;
+    padding: 0px;
+    height: 100vh;
+    display: table;
+    /*j'ésper qu'on peut utiliser ca vu que ca marche et inline-block non  */
+}
+
+.sizer {
+    height: 20vh;
+    /*pour centrer verticallement*/
+}
+
+.blockleft {
+    border-right: 1px solid white;
+    width: 544px;
+    height: 600px;
+    display: block;
+    box-sizing: border-box;
+    align-items: center;
+    /* float: left; */
+    margin: 0 auto;
+
+}
+
+.blockright {
+    width: 696px;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    /* float: right; */
+    margin: 0 auto;
+}
+
+@media (min-width: 1257px) {
+    .blockleft {
+        float: left;
+    }
+
+    .blockright {
+        float: right;
+    }
+
+}
+
+@media (max-width: 1257px) {
+    .blockleft {
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+    .blockright {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+.blockright a {
+    text-decoration: none;
+}
+
+
+
+header h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    /* font-family: 'Style Script', cursive; */
+    text-transform: uppercase;
+    position: relative;
+    font-size: 68px;
+    /*pas de rem ici car Noel mode a des elements connecté à la taille du font */
+    color: white;
+    font-weight: 900;
+    line-height: 70px;
+    margin: 80px 0 0 20px;
+}
+
+.blockleft p {
+    color: white;
+    margin: 20px 60px;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.blockright p {
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Style Script', cursive;
+    font-weight: 300;
+    margin-top: 5px;
+    
+}
+
+.videotop {
+
+    display: block;
+    padding: 50px 70px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    transition: 1.3s ease;
+    margin: 8px;
+
+
+}
+
+.videotop {
+    height: 60px;
+    width: 60px;
+    position: relative;
+
+}
+
+.videotop video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.2;
+    transition: 1s ease;
+    border-radius: 20px;
+    filter: blur(5px);
+
+}
+
+.videotop video:hover {
+    opacity: 1;
+    cursor: pointer;
+    filter: none;
+    cursor: url(./img/mouse10.png), pointer;
+
+}
+
+.videotop:hover {
+    color: rgb(188, 142, 64);
+    animation: videos 10s alternate infinite;
+}
+
+@keyframes videos {
+    0% {
+        box-shadow: 0 0 17px #202020, 0 0 25px #313131, 0 0 100px #a367c692;
+    }
+
+    10% {
+        box-shadow: 0 0 17px #191629, 0 0 25px #39325e, 0 0 100px #a367c692;
+    }
+
+
+    100% {
+        box-shadow: 0 0 17px #6c4a05, 0 0 25px #593e05, 0 0 100px #ffc001b4;
+    }
+
+}
+
+.videodance {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    margin: 0px;
+}
+
+.videobrown {
+    position: absolute;
+    top: 40px;
+    left: 250px;
+}
+
+.videohow {
+    position: absolute;
+    top: 40px;
+    left: 470px;
+}
+
+.videonoel {
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+
+.videomusic {
+    position: absolute;
+    top: 230px;
+    left: 250px;
+}
+
+.videophantom {
+    position: absolute;
+    top: 230px;
+    left: 470px;
+}
+
+.videoprince {
+    position: absolute;
+    top: 420px;
+    left: 125px;
+}
+
+.videoask {
+    position: absolute;
+    top: 420px;
+    left: 370px;
+}
+
+.line {
+    border: 1px solid white;
+    width: 60px;
+    margin: 30px auto;
+    opacity: .1;
+}
+
+
+.gradient {
+    background: linear-gradient(-75deg,
+            #b182e486,
+            #0000003a,
+            #e0c93729,
+            #0000003a,
+            #73317354,
+            #0000003a,
+            #0000003a);
+    background-size: 500% 500%;
+    animation: gradient 120s ease infinite;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 30%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
+}
+
+main {
+    max-width: 1240px;
+    min-width: 768px;
+    margin: auto;
+    padding: 0px;
+
+}
+
+.image {
+
+    min-width: 768px;
+    max-width: 1220px;
+    border-radius: 30px;
+    position: relative;
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+main p {
+    color: white;
+    width: 700px;
+    margin: 30px auto;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    font-size: 4.375rem;
+    margin-bottom: 30px;
+}
+
+main h2 {
+    color: white;
+    font-family: 'Style Script', cursive;
+    font-size: 3.125rem;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.scrolldown {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    width: 21px;
+    z-index: 3;
+
+
+}
+
+.scroll {
+    content: '';
+    width: 18px;
+    height: 18px;
+    opacity: .3;
+    border-left: 3px solid rgb(207, 207, 207);
+    border-bottom: 3px solid rgb(216, 216, 216);
+    transform: rotate(-45deg);
+}
+
+footer {
+
+    color: rgba(255, 255, 255, 0.222);
+    font-size: 0.75rem;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+footer h3:hover {
+    color: rgba(177, 104, 192, 0.957);
+    transition: 1s ease;
+}
+
+.footerBox {
+    margin-bottom: 50px;
+    width: 550px;
+}
+
+.line-footer {
+    width: 300px;
+    border: 0.1px solid rgba(243, 240, 234, 0.11);
+
+}
+
+.snowfall {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("./img/snow1.webp"),
+        url("./img/snow2.webp"),
+        url("./img/snow3.webp");
+    animation: letItSnow 30s linear infinite;
+    z-index: -9;
+    opacity: .3;
+}
+
+@keyframes letItSnow {
+    0% {
+        background-position: 0px 0px;
+    }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px;
+    }
+}
+
+.turn-off {
+    display: none;
+}
+
+.noel-button {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    color: rgb(227, 227, 227);
+    background: linear-gradient(#8e1616c3,
+            #093a0300);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Cinzel', serif;
+    transition: 2s ease;
+    z-index: 60;
+    cursor: url(./img/mouse10.png), pointer;
+}
+
+.noel-button:hover {
+    background: linear-gradient(#2d2d2d63,
+            #b59c2018);
+    box-shadow: 0 0 5px #8F7CEC, 0 0 25px #8F7CEC, 0 0 100px #8F7CEC;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.lights {
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    z-index: -10;
+    opacity: .5;
+    animation: lighting steps(5, end) 1s infinite;
+    min-width: 768px;
+}
+
+@keyframes lighting {
+    0% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: .8;
+    }
+}
+
+.parent-button-info {
+    position: relative;
+}
+
+.button-info {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    text-align: center;
+    color: aliceblue;
+    z-index: 45;
+    transition: 0.5s ease;
+    box-sizing: border-box;
+    opacity: .3;
+}
+
+.button-info:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #8F7CEC, 0 0 7px #8F7CEC, 0 0 20px #8F7CEC;
+    color: black;
+    background-color: #f4f4ebc7;
+    border: none;
+    opacity: 1;
+    cursor: url(./img/mouse10.png), pointer;
+}
+
+.info p {
+    width: 200px;
+    height: 25px;
+    background-color: rgba(30, 30, 30, 0.656);
+    color: white;
+    font-size: 0.6875rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    border-radius: 5%;
+    padding: 20px;
+    margin: 0;
+    z-index: 40;
+}
+
+.info a {
+    color: #b17fea;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.info a:visited {
+    color: #128782;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+.hat {
+    position: absolute;
+    top: -30px;
+    left: 49px;
+    width: 120px;
+    rotate: -20deg;
+    z-index: 3;
+}
+
+
+
+.box-form {
+    background: #131315;
+    color: white;
+    width: 600px;
+    padding: 60px 60px 80px 60px;
+    background-color: #242026;
+    animation: animate 15s alternate infinite;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 110px 60px;
+    padding-top: 70px;
+    position: relative;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0px 0px 100px rgba(142, 141, 142, 0.173);
+    }
+
+    50% {
+        box-shadow: 0px 0px 100px rgba(141, 94, 134, 0.641);
+    }
+
+    100% {
+        box-shadow: 0px 0px 100px rgba(200, 164, 20, 0.279);
+    }
+
+}
+
+#object,
+#analogy,
+#mail,
+#name,
+#photo {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+    FF margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    transition: 1.3s ease;
+    border-radius: 7px;
+}
+
+
+
+#object:valid,
+#analogy:valid,
+#mail:valid,
+#name:valid,
+#photo:valid {
+    text-shadow: 1px 1px 50px rgba(0, 255, 136, 0.778), 0 0 1em rgba(0, 255, 195, 0.723), 0 0 0.2em rgba(0, 255, 195, 0.384);
+}
+
+#object:focus,
+#analogy:focus,
+#mail:focus,
+#name:focus,
+#photo:focus {
+    box-shadow: 0 0 5px #8F7CEC, 0 0 25px #8F7CEC, 0 0 100px #8F7CEC;
+
+}
+
+label {
+    font-size: 1.875rem;
+    font-family: 'Style Script', cursive;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding: 5px 0;
+    z-index: 14;
+}
+
+#send {
+    padding: 0px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #CBBDDB;
+    font-size: 1.875rem;
+    font-family: 'Style Script', cursive;
+    transition: 1.3s ease;
+    position: absolute;
+    right: 60px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    background-color: #44304e63;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.312);
+
+}
+
+#send:hover {
+    background: #8F7CEC;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px #8F7CEC, 0 0 25px #8F7CEC, 0 0 50px #8F7CEC, 0 0 100px #8F7CEC;
+    cursor: url(./img/mouse10.png), pointer;
+}
+
+textarea {
+    background-color: #242026;
+    font-size: 1rem;
+    color: #ffffffc8;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    resize: none;
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    padding: 7px;
+    box-sizing: border-box;
+    transition: 1.3s ease;
+    border-radius: 7px;
+    width: 600px;
+
+}
+
+textarea:focus {
+    border: none;
+    box-shadow: 0 0 5px #8F7CEC, 0 0 25px #8F7CEC;
+    outline: none;
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+}
+
+.blockright a:visited {
+    color: #242026;
+}
+
+.toppage {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    background-color: transparent;
+    color: #787878;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    z-index: 55;
+}
+
+.toppage:hover {
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.toppage a {
+    text-decoration: none;
+    color: #787878;
+    font-family: 'Cinzel', serif;
+}
+
+.toppage a:visited {
+    color: #787878;
+}
+
+.legal {
+    cursor: pointer;
+    cursor: url(./img/mouse10.png), pointer;
+}
+
+.added h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3.2rem;
+}
+
+::placeholder {
+    font-family: 'Cinzel', serif;
+
+}
+
+#object,
+#analogy {
+    width: 211px;
+    display: inline-block
+}
+
+.textlegal a {
+    color: #9a9a9848;
+    text-decoration: none;
+}
+
+.textlegal a:hover {
+    color: #f3cc78f0;
+    transition: 1s ease;
+
+}
+
+
+#mouse-circle {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%,
+            rgba(235, 214, 159, 0.511),
+            rgba(62, 31, 74, 0.241),
+            rgba(191, 107, 222, 0.038),
+            transparent 40%);
+    
+
+}
+
+.leftside {
+    font-size: 0.8rem;
+    text-align: right !important;
+    font-weight: 700 !important;
+        
+}
+
+.mainline {
+    width: 100px;
+    height: 1px;
+    background-color: #e7e7e720;
+    margin: auto;
+}
+
+.formular p {
+    text-align: center;
+    margin-bottom: 70px ;
+    margin-top: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+.music p {
+    position: relative;
+}
+
+.song {
+    position: absolute;
+    top: 600px;
+    left: 20%;
+    z-index: 60;
+   opacity: 0.9;
+   box-shadow:  0 0 80px 10px #ed6d36ce;
+
+}
+
+.liste-analogies p:not(.info p) {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
+}
+
